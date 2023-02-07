@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessname | Rules & Regulations</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        .rules-container{
+            background-color: royalblue;
+            color: #fff;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .rules-container > h2{
+            font-size: calc(17px + 2vw);
+            margin-bottom: 2rem;
+        }
+        .rules-desc{
+            width: 90%;
+        }
+        .rules-desc > h4{
+            margin-bottom: 1rem;
+        }
+        .back{
+            padding: 8px 13px;
+            color: royalblue;
+            background-color: #fff;
+            text-decoration: none;
+            border-radius: 10px;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="rules-container">
+        <h2>How To Play The Game</h2>
+        <div class="rules-desc">
+            <h4>1) Name of a person in the form of dashes will be displayed on the screen.</h4>
+            <h4>2) You have to input an alphabet one by one.</h4>
+            <h4>3) If that alphabet would be present the name, it will be displayed.</h4>
+            <h4>4) If the alphabet would not be present in thhat name, a character of title would be turned into red.</h4>
+            <h4>You have to try to complete the name untill all characters turns red.</h4>
+        </div>
+        <a class="back" href="index.html">Go Back To Game</a>
+    </div>
+</body>
+</html>
