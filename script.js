@@ -3,7 +3,7 @@ const button = document.querySelector('.btn');
 const input = document.querySelector('.input');
 const wrongWords = document.querySelector('.wrong-words');
 const title = document.querySelectorAll('.title');
-let names = ["Muzammil" , "Arslaan" , "Farasha" , "Nasra" , "Zaroon" , "Fariha","RAMISH","TABISH","HASHIM","ALISHBA","MEHMOOD","Maryam","Inshrah","Zerlish","ZUBIA","MAHJABEEN","ARMEENA","ALIZAY","NAFEESA","RABACA","ARMISH","ANEELA","MEERAB","UMAIMA","Ahtisham","Abrish","Bakhtawer","Jahanzaib","Hafifa","Hanzla","Minhal","Ushna","Kashmala","Zulqarnain","Azhar","miraj","sufiyan"];
+let names = ["Muzammil" , "Arslaan" , "Farasha" , "Nasra" , "Zaroon" , "Fariha","RAMISH","TABISH","HASHIM","ALISHBA","MEHMOOD","Maryam","Inshrah","Zerlish","ZUBIA","MAHJABEEN","ARMEENA","ALIZAY","NAFEESA","RABACA","ARMISH","ANEELA","MEERAB","UMAIMA","Ahtisham","Abrish","Bakhtawer","Jahanzaib","Hafifa","Hanzla","Minhal","Ushna","Kashmala","Zulqarnain","Azhar","miraj","sufiyan","nailain","zunaira","salar","subaina","irtaza","rabik"];
 let name; // Used to Store Current Name
 let errorNumber = 0; // Used As a Counter To Count 12 Chances
 let CorrectWords = 0; // Used As a counter to count correct words.
